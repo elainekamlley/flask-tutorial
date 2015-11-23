@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Flask Tutorial</title>
+			<style type="text/css"></style>
+
+		</head>
+		<body>
+			<div class="container">
+			<nav>
+			 	<a href="/">Home</a>
+			 	<a href="/work">Work</a>
+			 	<a href="/contact">Contact</a>
+	 		</nav>
+				{% block content %} <!-- This is called inheritence -->
+				{% endblock %}
+			</div>
+		</body>
+
+	</html>
